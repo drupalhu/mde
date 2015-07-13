@@ -1,0 +1,62 @@
+@include establish-baseline();
+
+html {
+  font-family: $font-family-base;
+}
+
+h1, h2, h3, h4 {
+  font-family: $font-family-heading;
+  font-weight: bold;
+}
+
+h1 {
+  @include adjust-font-size-to($font-size-h1);
+}
+h2 {
+  @include adjust-font-size-to($font-size-h2);
+}
+h3 {
+  @include adjust-font-size-to($font-size-h3);
+}
+h4 {
+  @include adjust-font-size-to($font-size-h4);
+}
+
+p {
+  @include trailer();
+  @include leader();
+  &:last-child {
+    margin-bottom: 0;
+  }
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+ul {
+  list-style-type: disc;
+  list-style-position: outside;
+  padding-left: rhythm(1);
+}
+
+#branding, 
+#site-slogan, 
+.member {
+  text-align: center;
+}
+
+.member {
+  p {
+    margin: 0;
+  }
+}
+
+.button {
+  @include button();
+}
+
+#details, 
+.join-step, 
+#footer {
+  @include invert();
+}

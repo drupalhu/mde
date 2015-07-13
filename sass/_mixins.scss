@@ -1,0 +1,13 @@
+@mixin button() {
+  display: inline-block;
+  padding: 0 0.5em;
+  background: lighten($color-primary, 30);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+@mixin invert() {
+  background-color: $color-primary;
+  color: #fff;
+  padding: rhythm();
+}

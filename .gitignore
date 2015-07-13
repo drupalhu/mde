@@ -1,0 +1,4 @@
+vendor
+.bundle
+.sass-cache
+Gemfile.lock

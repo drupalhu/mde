@@ -1,0 +1,306 @@
+/* line 5, ../vendor/bundle/ruby/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../vendor/bundle/ruby/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../vendor/bundle/ruby/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../vendor/bundle/ruby/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../vendor/bundle/ruby/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../vendor/bundle/ruby/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../vendor/bundle/ruby/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../vendor/bundle/ruby/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../vendor/bundle/ruby/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 1, ../sass/_layout.scss */
+body {
+  padding: 1.55556em;
+}
+
+/* line 5, ../sass/_layout.scss */
+section {
+  clear: both;
+}
+
+/* line 9, ../sass/_layout.scss */
+#join-steps,
+#details {
+  margin: 0 -1.55556em;
+}
+
+@media (min-width: 768px) {
+  /* line 15, ../sass/_layout.scss */
+  #header {
+    height: 320px;
+  }
+
+  /* line 18, ../sass/_layout.scss */
+  #branding {
+    text-align: left;
+  }
+
+  /* line 21, ../sass/_layout.scss */
+  #site-logo {
+    float: left;
+    width: 120px;
+  }
+  /* line 24, ../sass/_layout.scss */
+  #site-logo img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* line 29, ../sass/_layout.scss */
+  #site-title {
+    float: left;
+    max-width: 60%;
+  }
+
+  /* line 33, ../sass/_layout.scss */
+  #site-slogan {
+    clear: both;
+  }
+
+  /* line 36, ../sass/_layout.scss */
+  #navigation {
+    float: right;
+  }
+
+  /* line 39, ../sass/_layout.scss */
+  #intro,
+  #join-steps,
+  #members {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  /* line 47, ../sass/_layout.scss */
+  #description {
+    -webkit-flex: 3;
+    flex: 3;
+    margin-right: 1em;
+  }
+
+  /* line 51, ../sass/_layout.scss */
+  #details {
+    -webkit-flex: 2;
+    flex: 2;
+    margin-left: 0;
+  }
+
+  /* line 55, ../sass/_layout.scss */
+  .join-step {
+    -webkit-flex: 1;
+    flex: 1;
+  }
+
+  /* line 59, ../sass/_layout.scss */
+  .member {
+    -webkit-flex: 1 1 25%;
+    flex: 1 1 25%;
+  }
+}
+/*! responsive-nav.js 1.0.39 by @viljamis */
+/* line 3, ../sass/_responsive-nav.scss */
+.nav-collapse ul {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: block;
+  list-style: none;
+}
+
+/* line 11, ../sass/_responsive-nav.scss */
+.nav-collapse li {
+  width: 100%;
+  display: block;
+}
+
+/* line 16, ../sass/_responsive-nav.scss */
+.js .nav-collapse {
+  clip: rect(0 0 0 0);
+  max-height: 0;
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  zoom: 1;
+}
+
+/* line 25, ../sass/_responsive-nav.scss */
+.nav-collapse.opened {
+  max-height: 9999px;
+}
+
+/* line 29, ../sass/_responsive-nav.scss */
+.nav-toggle {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 40, ../sass/_responsive-nav.scss */
+  .js .nav-collapse {
+    position: relative;
+  }
+
+  /* line 43, ../sass/_responsive-nav.scss */
+  .js .nav-collapse.closed {
+    max-height: none;
+  }
+
+  /* line 46, ../sass/_responsive-nav.scss */
+  .nav-toggle {
+    display: none;
+  }
+}
+/* line 106, ../vendor/bundle/ruby/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/typography/_vertical_rhythm.scss */
+html {
+  font-size: 112.5%;
+  line-height: 1.55556em;
+}
+
+/* line 3, ../sass/_typography.scss */
+html {
+  font-family: "Helvetica", Arial, sans-serif;
+}
+
+/* line 7, ../sass/_typography.scss */
+h1, h2, h3, h4 {
+  font-family: "Helvetica", Arial, sans-serif;
+  font-weight: bold;
+}
+
+/* line 12, ../sass/_typography.scss */
+h1 {
+  font-size: 2.66667em;
+  line-height: 1.16667em;
+}
+
+/* line 15, ../sass/_typography.scss */
+h2 {
+  font-size: 2.11111em;
+  line-height: 1.47368em;
+}
+
+/* line 18, ../sass/_typography.scss */
+h3 {
+  font-size: 1.77778em;
+  line-height: 1.75em;
+}
+
+/* line 21, ../sass/_typography.scss */
+h4 {
+  font-size: 1.33333em;
+  line-height: 1.16667em;
+}
+
+/* line 25, ../sass/_typography.scss */
+p {
+  margin-bottom: 1.55556em;
+  margin-top: 1.55556em;
+}
+/* line 28, ../sass/_typography.scss */
+p:last-child {
+  margin-bottom: 0;
+}
+/* line 31, ../sass/_typography.scss */
+p:first-child {
+  margin-top: 0;
+}
+
+/* line 36, ../sass/_typography.scss */
+ul {
+  list-style-type: disc;
+  list-style-position: outside;
+  padding-left: 1.55556em;
+}
+
+/* line 42, ../sass/_typography.scss */
+#branding,
+#site-slogan,
+.member {
+  text-align: center;
+}
+
+/* line 49, ../sass/_typography.scss */
+.member p {
+  margin: 0;
+}
+
+/* line 54, ../sass/_typography.scss */
+.button {
+  display: inline-block;
+  padding: 0 0.5em;
+  background: #59c6ff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* line 58, ../sass/_typography.scss */
+#details,
+.join-step,
+#footer {
+  background-color: #007DBF;
+  color: #fff;
+  padding: 1.55556em;
+}
