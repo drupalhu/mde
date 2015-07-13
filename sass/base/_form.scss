@@ -1,0 +1,13 @@
+.btn-mde {
+  @include border-radius(0);
+  @include transition(all 0.2s ease);
+  background-color: #fff;
+  color: #666;
+  font-size: 18px;
+  padding: 10px 15px;
+
+  &:hover {
+    background-color: $color-primary;
+    color: #fff;
+  }
+}
