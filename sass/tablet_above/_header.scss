@@ -1,0 +1,36 @@
+
+#header {
+  padding-top: 32px;
+  position: relative;
+
+  .decoration {
+    background-color: $color-primary;
+    height: 70px;
+    position: absolute;
+    top: 70px;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .container {
+    position: relative;
+    z-index: 10;
+  }
+
+  .site-title {
+    margin: 56px 0 0 40px;
+
+    h1 {
+      font-size: 28px;
+    }
+  }
+
+  .site-slogan {
+    padding: 180px 0 40px;
+
+    h2 {
+      font-size: 44px;
+      margin-bottom: 30px;
+    }
+  }
+}
