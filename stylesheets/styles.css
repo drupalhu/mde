@@ -366,15 +366,68 @@ ul {
   }
 
   /* line 2, ../sass/tablet_above/_nav.scss */
-  .navigation {
-    margin: 59px 0 0 40px;
+  #navbar {
+    float: right;
+    margin: 49px 0 0 40px;
   }
-  /* line 5, ../sass/tablet_above/_nav.scss */
-  .navigation li {
-    display: inline-block;
-  }
-  /* line 8, ../sass/tablet_above/_nav.scss */
-  .navigation li a {
+  /* line 7, ../sass/tablet_above/_nav.scss */
+  #navbar li a {
+    color: #fff;
     padding: 15px 12px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* line 2, ../sass/tablet_below/_header.scss */
+  #site-logo {
+    margin: 0 auto;
+  }
+  /* line 5, ../sass/tablet_below/_header.scss */
+  #site-logo,
+  #site-logo img {
+    max-width: 120px;
+  }
+
+  /* line 11, ../sass/tablet_below/_header.scss */
+  #branding {
+    margin: 40px 0;
+  }
+
+  /* line 2, ../sass/tablet_below/_nav.scss */
+  .navigation {
+    text-align: center;
+  }
+
+  /* line 6, ../sass/tablet_below/_nav.scss */
+  .navbar-header {
+    background-color: #007dbf;
+  }
+
+  /* line 10, ../sass/tablet_below/_nav.scss */
+  .navbar-toggle {
+    border-color: #fff;
+  }
+  /* line 13, ../sass/tablet_below/_nav.scss */
+  .navbar-toggle .icon-bar {
+    background-color: #fff;
+  }
+
+  /* line 18, ../sass/tablet_below/_nav.scss */
+  #navbar {
+    background-color: #fff;
+  }
+  /* line 21, ../sass/tablet_below/_nav.scss */
+  #navbar ul {
+    list-style: none;
+    padding: 0;
+  }
+  /* line 26, ../sass/tablet_below/_nav.scss */
+  #navbar a {
+    color: #007dbf;
+  }
+
+  /* line 31, ../sass/tablet_below/_nav.scss */
+  .navbar-brand {
+    color: #fff;
+    font-size: 18px;
   }
 }
