@@ -4,6 +4,10 @@ section {
   clear: both;
 }
 
+#footer {
+  margin-bottom: 0;
+}
+
 @include breakpoint($screen-tablet) {
   #branding {
     text-align: left;
