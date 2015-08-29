@@ -1,0 +1,34 @@
+
+.navigation {
+  text-align: center;
+}
+
+.navbar-header {
+  background-color: $color-primary;
+}
+
+.navbar-toggle {
+  border-color: #fff;
+
+  .icon-bar {
+    background-color: #fff;
+  }
+}
+
+#navbar {
+  background-color: #fff;
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  a {
+    color: $color-primary;
+  }
+}
+
+.navbar-brand {
+  color: #fff;
+  font-size: 18px;
+}

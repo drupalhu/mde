@@ -13,17 +13,28 @@
   <meta property="og:description" content="Ide jön a rövid leírás.">
   <meta property="og:url" content="http://mde.drupal.hu">
   <meta property="og:image" content="http://mde.drupal.hu/images/og-image.png">
-  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+  <link href="//netdna.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
   <link href="stylesheets/styles.css" media="all" rel="stylesheet" type="text/css" />
-  <script src="js/responsive-nav.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </head>
 <body>
   <section id="header">
     <div class="decoration"></div>
     <div class="container">
-      <div class="navigation" id="navigation">
-      <nav class="nav-collapse">
-        <ul>
+      <div class="navbar-header">
+        <div class="navigation" id="navigation">
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="true">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div class="visible-xs navbar-brand">Magyar Drupal Egyesület</div>
+        </div>
+      </div>
+      <nav id="navbar" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
           <li><a href="#intro">Rólunk</a></li>
           <li><a href="#join">Csatlakozz!</a></li>
           <li><a href="#board">Elnökség</a></li>
@@ -31,10 +42,9 @@
           <li><a href="#projects">Projektek</a></li>
         </ul>
       </nav>
-      </div>
       <div id="branding">
         <div id="site-logo"><img src="images/logo.png" alt="Logo"></div>
-        <div class="site-title" id="site-title"><h1>Magyar Drupal Egyesület</h1></div>
+        <div class="hidden-md hidden-sm hidden-xs site-title" id="site-title"><h1>Magyar Drupal Egyesület</h1></div>
         <div class="site-slogan" id="site-slogan">
           <h2>Legyél tagja Te is!</h2>
           <a class="btn btn-mde" href="#join">Részletek...</a>
@@ -224,8 +234,6 @@
     <a href="" class="button">Facebook</a>
   </section>
   <section id="footer">CC: Magyar Drupal Egyesület | Drupal is a registered trademark of Dries Buytaert.</section>
-  <script>
-    var nav = responsiveNav(".nav-collapse");
-  </script>
+
 </body>
 </html>
