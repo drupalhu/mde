@@ -8,6 +8,11 @@ section {
   margin-bottom: 0;
 }
 
+.member {
+  @include leader();
+  @include trailer();
+}
+
 @include breakpoint($screen-tablet) {
   #branding {
     text-align: left;

@@ -75,35 +75,41 @@ section {
   margin-bottom: 0;
 }
 
+/* line 11, ../sass/_layout.scss */
+.member {
+  margin-top: 1.55556em;
+  margin-bottom: 1.55556em;
+}
+
 @media (min-width: 768px) {
-  /* line 12, ../sass/_layout.scss */
+  /* line 17, ../sass/_layout.scss */
   #branding {
     text-align: left;
   }
 
-  /* line 16, ../sass/_layout.scss */
+  /* line 21, ../sass/_layout.scss */
   #site-logo {
     float: left;
     width: 120px;
   }
-  /* line 20, ../sass/_layout.scss */
+  /* line 25, ../sass/_layout.scss */
   #site-logo img {
     max-width: 100%;
     height: auto;
   }
 
-  /* line 26, ../sass/_layout.scss */
+  /* line 31, ../sass/_layout.scss */
   #site-title {
     float: left;
     max-width: 60%;
   }
 
-  /* line 31, ../sass/_layout.scss */
+  /* line 36, ../sass/_layout.scss */
   #site-slogan {
     clear: both;
   }
 
-  /* line 35, ../sass/_layout.scss */
+  /* line 40, ../sass/_layout.scss */
   #navigation {
     float: right;
   }
