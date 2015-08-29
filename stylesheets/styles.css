@@ -267,6 +267,8 @@ h4,
 #footer {
   background-color: #007dbf;
   color: #fff;
+  padding-top: 1.55556em;
+  padding-bottom: 1.55556em;
 }
 
 /* line 1, ../sass/base/_form.scss */
@@ -302,6 +304,8 @@ h4,
 #header .site-slogan h2 {
   background-color: #007dbf;
   color: #fff;
+  padding-top: 1.55556em;
+  padding-bottom: 1.55556em;
 }
 
 /* line 4, ../sass/base/_nav.scss */
