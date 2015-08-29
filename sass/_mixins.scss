@@ -9,5 +9,4 @@
 @mixin invert() {
   background-color: $color-primary;
   color: #fff;
-  padding: rhythm();
 }

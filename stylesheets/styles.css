@@ -1,4 +1,4 @@
-/* line 5, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 5, ../vendor/bundle/ruby/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,45 +20,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../vendor/bundle/ruby/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../vendor/bundle/ruby/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../vendor/bundle/ruby/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../vendor/bundle/ruby/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../vendor/bundle/ruby/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../vendor/bundle/ruby/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../vendor/bundle/ruby/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../vendor/bundle/ruby/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
@@ -68,81 +68,37 @@ section {
   clear: both;
 }
 
-/* line 5, ../sass/_layout.scss */
-#join-steps,
-#details {
-  margin: 0 -1.55556em;
-}
-
 @media (min-width: 768px) {
-  /* line 11, ../sass/_layout.scss */
+  /* line 6, ../sass/_layout.scss */
   #branding {
     text-align: left;
   }
 
-  /* line 15, ../sass/_layout.scss */
+  /* line 10, ../sass/_layout.scss */
   #site-logo {
     float: left;
     width: 120px;
   }
-  /* line 19, ../sass/_layout.scss */
+  /* line 14, ../sass/_layout.scss */
   #site-logo img {
     max-width: 100%;
     height: auto;
   }
 
-  /* line 25, ../sass/_layout.scss */
+  /* line 20, ../sass/_layout.scss */
   #site-title {
     float: left;
     max-width: 60%;
   }
 
-  /* line 30, ../sass/_layout.scss */
+  /* line 25, ../sass/_layout.scss */
   #site-slogan {
     clear: both;
   }
 
-  /* line 34, ../sass/_layout.scss */
+  /* line 29, ../sass/_layout.scss */
   #navigation {
     float: right;
-  }
-
-  /* line 38, ../sass/_layout.scss */
-  #intro,
-  #join-steps,
-  #members {
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-direction: row;
-    flex-direction: row;
-    -webkit-flex-wrap: wrap;
-    flex-wrap: wrap;
-  }
-
-  /* line 46, ../sass/_layout.scss */
-  #description {
-    -webkit-flex: 3;
-    flex: 3;
-    margin-right: 1em;
-  }
-
-  /* line 51, ../sass/_layout.scss */
-  #details {
-    -webkit-flex: 2;
-    flex: 2;
-    margin-left: 0;
-  }
-
-  /* line 56, ../sass/_layout.scss */
-  .join-step {
-    -webkit-flex: 1;
-    flex: 1;
-  }
-
-  /* line 60, ../sass/_layout.scss */
-  .member {
-    -webkit-flex: 1 1 25%;
-    flex: 1 1 25%;
   }
 }
 /*! responsive-nav.js 1.0.39 by @viljamis */
@@ -197,7 +153,7 @@ section {
     display: none;
   }
 }
-/* line 106, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/typography/_vertical_rhythm.scss */
+/* line 106, ../vendor/bundle/ruby/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/typography/_vertical_rhythm.scss */
 html {
   font-size: 112.5%;
   line-height: 1.55556em;
@@ -262,16 +218,17 @@ ul {
 /* line 42, ../sass/_typography.scss */
 #branding,
 #site-slogan,
-.member {
+.member,
+.project-item {
   text-align: center;
 }
 
-/* line 49, ../sass/_typography.scss */
+/* line 50, ../sass/_typography.scss */
 .member p {
   margin: 0;
 }
 
-/* line 54, ../sass/_typography.scss */
+/* line 55, ../sass/_typography.scss */
 .button {
   display: inline-block;
   padding: 0 0.5em;
@@ -280,13 +237,12 @@ ul {
   text-transform: uppercase;
 }
 
-/* line 58, ../sass/_typography.scss */
+/* line 59, ../sass/_typography.scss */
 #details,
 .join-step,
 #footer {
   background-color: #007dbf;
   color: #fff;
-  padding: 1.55556em;
 }
 
 /* line 1, ../sass/base/_form.scss */

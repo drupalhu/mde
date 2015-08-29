@@ -2,11 +2,6 @@ section {
   clear: both;
 }
 
-#join-steps, 
-#details {
-    margin: 0 rhythm(-1);
-}
-
 @include breakpoint($screen-tablet) {
   #branding {
     text-align: left;
@@ -33,32 +28,6 @@ section {
 
   #navigation {
     float: right;
-  }
-
-  #intro, 
-  #join-steps, 
-  #members   {
-    @include display-flex;
-    @include flex-direction(row);
-    @include flex-wrap(wrap);
-  }
-
-  #description {
-    @include flex(3);
-    margin-right: 1em;
-  }
-
-  #details {
-    @include flex(2);
-    margin-left: 0;
-  }
-
-  .join-step {
-    @include flex(1);
-  }
-  
-  .member {
-    @include flex(1 1 25%);
   }
 }
 
