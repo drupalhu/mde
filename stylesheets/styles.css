@@ -299,12 +299,13 @@ h4,
 #header {
   background-color: #d7d7d7;
   background: #d7d7d7 url(../images/header-bg.jpg) no-repeat fixed 50% 50%;
+  margin-top: 0;
 }
-/* line 4, ../sass/base/_header.scss */
+/* line 5, ../sass/base/_header.scss */
 #header .site-title {
   color: #fff;
 }
-/* line 8, ../sass/base/_header.scss */
+/* line 9, ../sass/base/_header.scss */
 #header .site-slogan h2 {
   background-color: #007dbf;
   color: #fff;
