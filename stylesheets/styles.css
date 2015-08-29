@@ -65,38 +65,40 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* line 1, ../sass/_layout.scss */
 section {
+  margin-top: 1.55556em;
+  margin-bottom: 1.55556em;
   clear: both;
 }
 
 @media (min-width: 768px) {
-  /* line 6, ../sass/_layout.scss */
+  /* line 8, ../sass/_layout.scss */
   #branding {
     text-align: left;
   }
 
-  /* line 10, ../sass/_layout.scss */
+  /* line 12, ../sass/_layout.scss */
   #site-logo {
     float: left;
     width: 120px;
   }
-  /* line 14, ../sass/_layout.scss */
+  /* line 16, ../sass/_layout.scss */
   #site-logo img {
     max-width: 100%;
     height: auto;
   }
 
-  /* line 20, ../sass/_layout.scss */
+  /* line 22, ../sass/_layout.scss */
   #site-title {
     float: left;
     max-width: 60%;
   }
 
-  /* line 25, ../sass/_layout.scss */
+  /* line 27, ../sass/_layout.scss */
   #site-slogan {
     clear: both;
   }
 
-  /* line 29, ../sass/_layout.scss */
+  /* line 31, ../sass/_layout.scss */
   #navigation {
     float: right;
   }
@@ -233,12 +235,20 @@ h4,
     text-align: left;
   }
 }
-/* line 60, ../sass/_typography.scss */
+/* line 63, ../sass/_typography.scss */
+#board .section-title,
+#join .section-title,
+#benefits .section-title,
+#projects .section-title {
+  margin-bottom: 1.55556em;
+}
+
+/* line 69, ../sass/_typography.scss */
 .member p {
   margin: 0;
 }
 
-/* line 65, ../sass/_typography.scss */
+/* line 74, ../sass/_typography.scss */
 .button {
   display: inline-block;
   padding: 0 0.5em;
@@ -247,7 +257,7 @@ h4,
   text-transform: uppercase;
 }
 
-/* line 69, ../sass/_typography.scss */
+/* line 78, ../sass/_typography.scss */
 .join-step,
 #footer {
   background-color: #007dbf;

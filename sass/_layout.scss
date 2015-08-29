@@ -1,4 +1,6 @@
 section {
+  @include leader();
+  @include trailer();
   clear: both;
 }
 

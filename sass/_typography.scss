@@ -56,6 +56,15 @@ h4,
   }
 }
 
+#board, 
+#join, 
+#benefits, 
+#projects {
+  .section-title {
+    @include trailer();
+  }
+}
+
 .member {
   p {
     margin: 0;
