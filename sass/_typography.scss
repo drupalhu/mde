@@ -69,6 +69,9 @@ h4,
   p {
     margin: 0;
   }
+  .member-position {
+    @include adjust-font-size-to($font-size-small);
+  }
 }
 
 .button {
