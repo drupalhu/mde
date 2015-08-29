@@ -9,6 +9,4 @@
 @mixin invert() {
   background-color: $color-primary;
   color: #fff;
-  @include padding-leader();
-  @include padding-trailer();
 }
