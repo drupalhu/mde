@@ -274,9 +274,10 @@ ul {
 #header .site-title {
   color: #fff;
 }
-/* line 9, ../sass/base/_header.scss */
+/* line 8, ../sass/base/_header.scss */
 #header .site-slogan h2 {
-  color: #666;
+  background-color: #007dbf;
+  color: #fff;
 }
 
 /* line 4, ../sass/base/_nav.scss */

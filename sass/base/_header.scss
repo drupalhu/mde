@@ -4,10 +4,9 @@
   .site-title {
     color: #fff;
   }
-
   .site-slogan {
     h2 {
-      color: #666;
+      @include invert();
     }
   }
 }
