@@ -41,9 +41,19 @@ ul {
 
 #branding, 
 #site-slogan, 
+#social, 
+#footer, 
+h4, 
+.section-title, 
 .member,
 .project-item {
   text-align: center;
+}
+
+@include breakpoint($screen-tablet) {
+  #details .section-title {
+    text-align: left;
+  }
 }
 
 .member {

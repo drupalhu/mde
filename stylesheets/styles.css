@@ -218,17 +218,27 @@ ul {
 /* line 42, ../sass/_typography.scss */
 #branding,
 #site-slogan,
+#social,
+#footer,
+h4,
+.section-title,
 .member,
 .project-item {
   text-align: center;
 }
 
-/* line 50, ../sass/_typography.scss */
+@media (min-width: 768px) {
+  /* line 54, ../sass/_typography.scss */
+  #details .section-title {
+    text-align: left;
+  }
+}
+/* line 60, ../sass/_typography.scss */
 .member p {
   margin: 0;
 }
 
-/* line 55, ../sass/_typography.scss */
+/* line 65, ../sass/_typography.scss */
 .button {
   display: inline-block;
   padding: 0 0.5em;
@@ -237,7 +247,7 @@ ul {
   text-transform: uppercase;
 }
 
-/* line 59, ../sass/_typography.scss */
+/* line 69, ../sass/_typography.scss */
 .join-step,
 #footer {
   background-color: #007dbf;
