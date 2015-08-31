@@ -1,0 +1,4 @@
+compass:
+  build: .
+  volumes:
+  - .:/home/compass/project
