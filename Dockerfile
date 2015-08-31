@@ -12,4 +12,4 @@ RUN bundle install
 VOLUME /home/compass/project
 WORKDIR /home/compass/project
 
-CMD compass watch
+CMD compass watch --poll
