@@ -222,13 +222,18 @@ p:first-child {
 }
 
 /* line 36, ../sass/_typography.scss */
+strong {
+  font-weight: bold;
+}
+
+/* line 40, ../sass/_typography.scss */
 ul {
   list-style-type: disc;
   list-style-position: outside;
   padding-left: 1.55556em;
 }
 
-/* line 42, ../sass/_typography.scss */
+/* line 46, ../sass/_typography.scss */
 #branding,
 #site-slogan,
 #social,
@@ -241,12 +246,12 @@ h4,
 }
 
 @media (min-width: 768px) {
-  /* line 54, ../sass/_typography.scss */
+  /* line 58, ../sass/_typography.scss */
   #details .section-title {
     text-align: left;
   }
 }
-/* line 63, ../sass/_typography.scss */
+/* line 67, ../sass/_typography.scss */
 #board .section-title,
 #join .section-title,
 #benefits .section-title,
@@ -254,17 +259,17 @@ h4,
   margin-bottom: 1.55556em;
 }
 
-/* line 69, ../sass/_typography.scss */
+/* line 73, ../sass/_typography.scss */
 .member p {
   margin: 0;
 }
-/* line 72, ../sass/_typography.scss */
+/* line 76, ../sass/_typography.scss */
 .member .member-position {
   font-size: 0.66667em;
   line-height: 2.33333em;
 }
 
-/* line 77, ../sass/_typography.scss */
+/* line 81, ../sass/_typography.scss */
 .button {
   display: inline-block;
   padding: 0 0.5em;
@@ -273,14 +278,14 @@ h4,
   text-transform: uppercase;
 }
 
-/* line 81, ../sass/_typography.scss */
+/* line 85, ../sass/_typography.scss */
 .join-step,
 #footer {
   background-color: #007dbf;
   color: #fff;
 }
 
-/* line 86, ../sass/_typography.scss */
+/* line 90, ../sass/_typography.scss */
 .join-step {
   padding-top: 1.55556em;
   padding-bottom: 1.55556em;
