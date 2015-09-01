@@ -15,3 +15,13 @@
 @media only screen and (min-width: $screen-tablet) {
   @import 'tablet_above';
 }
+
+// Below Tablet
+@media only screen and (max-width: ($screen-tablet - 1px)) {
+  @import 'tablet_below';
+}
+
+// Tablet
+@media only screen and (max-width: $screen-phone) {
+  @import 'mobile';
+}
