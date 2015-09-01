@@ -1,13 +1,13 @@
 #header {
   background-color: #d7d7d7;
-
+  background: #d7d7d7 url(../images/header-bg.jpg) no-repeat fixed 50% 50%;
+  margin-top: 0;
   .site-title {
     color: #fff;
   }
-
   .site-slogan {
     h2 {
-      color: #666;
+      @include invert();
     }
   }
 }

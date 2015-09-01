@@ -1,12 +1,13 @@
 
-.navigation {
-  margin: 59px 0 0 40px;
+#navbar {
+  float: right;
+  margin: 49px 0 0 40px;
 
   li {
-    display: inline-block;
-
     a {
+      color: #fff;
       padding: 15px 12px;
     }
   }
 }
+

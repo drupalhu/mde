@@ -33,6 +33,10 @@ p {
   }
 }
 
+strong {
+  font-weight: bold;
+}
+
 ul {
   list-style-type: disc;
   list-style-position: outside;
@@ -41,8 +45,28 @@ ul {
 
 #branding, 
 #site-slogan, 
-.member {
+#social, 
+#footer, 
+h4, 
+.section-title, 
+.member,
+.project-item {
   text-align: center;
+}
+
+@include breakpoint($screen-tablet) {
+  #details .section-title {
+    text-align: left;
+  }
+}
+
+#board, 
+#join, 
+#benefits, 
+#projects {
+  .section-title {
+    @include trailer();
+  }
 }
 
 .member {
@@ -55,8 +79,19 @@ ul {
   @include button();
 }
 
-#details, 
 .join-step, 
 #footer {
   @include invert();
+}
+
+#footer {
+  @include leader(3);
+  @include padding-leader();
+  @include padding-trailer(3);
+}
+
+.join-step {
+  @include padding-leader();
+  @include padding-trailer();
+  border: 6px solid white;
 }
