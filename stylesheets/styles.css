@@ -281,6 +281,13 @@ h4,
 }
 
 /* line 87, ../sass/_typography.scss */
+#footer {
+  margin-top: 4.66667em;
+  padding-top: 1.55556em;
+  padding-bottom: 4.66667em;
+}
+
+/* line 93, ../sass/_typography.scss */
 .join-step {
   padding-top: 1.55556em;
   padding-bottom: 1.55556em;

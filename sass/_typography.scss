@@ -84,6 +84,12 @@ h4,
   @include invert();
 }
 
+#footer {
+  @include leader(3);
+  @include padding-leader();
+  @include padding-trailer(3);
+}
+
 .join-step {
   @include padding-leader();
   @include padding-trailer();
