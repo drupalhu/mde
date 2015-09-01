@@ -93,4 +93,5 @@ h4,
 .join-step {
   @include padding-leader();
   @include padding-trailer();
+  border: 6px solid white;
 }
