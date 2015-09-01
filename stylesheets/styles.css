@@ -263,13 +263,8 @@ h4,
 .member p {
   margin: 0;
 }
-/* line 76, ../sass/_typography.scss */
-.member .member-position {
-  font-size: 0.66667em;
-  line-height: 2.33333em;
-}
 
-/* line 81, ../sass/_typography.scss */
+/* line 78, ../sass/_typography.scss */
 .button {
   display: inline-block;
   padding: 0 0.5em;
@@ -278,14 +273,14 @@ h4,
   text-transform: uppercase;
 }
 
-/* line 85, ../sass/_typography.scss */
+/* line 82, ../sass/_typography.scss */
 .join-step,
 #footer {
   background-color: #007dbf;
   color: #fff;
 }
 
-/* line 90, ../sass/_typography.scss */
+/* line 87, ../sass/_typography.scss */
 .join-step {
   padding-top: 1.55556em;
   padding-bottom: 1.55556em;
