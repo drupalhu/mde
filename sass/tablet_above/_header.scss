@@ -34,3 +34,34 @@
     }
   }
 }
+
+.social {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+
+  li {
+    display: inline-block;
+    margin-left: 5px;
+  }
+
+  i {
+    @include border-radius(13px);
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+  }
+
+  .mail i {
+    background-image: url("../images/mail.svg");
+  }
+
+  .facebook i {
+    background-image: url("../images/facebook.svg");
+  }
+
+  .twitter i {
+    background-image: url("../images/twitter.svg");
+  }
+}
