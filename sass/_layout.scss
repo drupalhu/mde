@@ -41,3 +41,11 @@ section {
     float: right;
   }
 }
+
+.join-step {
+  @include padding-leader();
+  @include padding-trailer();
+  @include breakpoint($screen-tablet) {
+    border: 20px solid white;  
+  }
+}

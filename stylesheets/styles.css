@@ -96,6 +96,16 @@ section {
     float: right;
   }
 }
+.join-step {
+  padding-top: 1.55556em;
+  padding-bottom: 1.55556em;
+}
+@media (min-width: 768px) {
+  .join-step {
+    border: 20px solid white;
+  }
+}
+
 /*! responsive-nav.js 1.0.39 by @viljamis */
 .nav-collapse ul {
   margin: 0;
@@ -243,12 +253,6 @@ h4,
   padding-bottom: 4.66667em;
 }
 
-.join-step {
-  padding-top: 1.55556em;
-  padding-bottom: 1.55556em;
-  border: 6px solid white;
-}
-
 .btn-mde {
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
@@ -282,6 +286,10 @@ h4,
 
 .navigation li a {
   color: #fff;
+}
+
+#projects .project-item img {
+  margin: 0 auto 25px;
 }
 
 @media only screen and (min-width: 768px) {
