@@ -273,7 +273,8 @@ h4,
 
 #header {
   background-color: #d7d7d7;
-  background: #d7d7d7 url(../images/header-bg.jpg) no-repeat fixed 50% 50%;
+  background: #d7d7d7 url(../images/header-bg.jpg) no-repeat center bottom scroll;
+  background-size: cover;
   margin-top: 0;
 }
 #header .site-title {
@@ -296,6 +297,7 @@ h4,
   #header {
     padding-top: 32px;
     position: relative;
+    height: 640px;
   }
   #header .decoration {
     background-color: #007dbf;

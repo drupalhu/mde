@@ -1,6 +1,7 @@
 #header {
   background-color: #d7d7d7;
-  background: #d7d7d7 url(../images/header-bg.jpg) no-repeat fixed 50% 50%;
+  background: #d7d7d7 url(../images/header-bg.jpg) no-repeat center bottom scroll; 
+  background-size: cover;
   margin-top: 0;
   .site-title {
     color: #fff;
