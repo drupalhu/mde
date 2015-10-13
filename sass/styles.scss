@@ -7,11 +7,9 @@
 @import 'layout';
 @import 'responsive-nav';
 @import 'typography';
-@import 'base/form';
-@import 'base/header';
-@import 'base/layout';
-@import 'base/nav';
-@import 'base/projects';
+
+// Base styles
+@import 'base';
 
 // Tablet
 @media only screen and (min-width: $screen-tablet) {

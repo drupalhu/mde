@@ -10,3 +10,11 @@
   background-color: $color-primary;
   color: #fff;
 }
+
+// Transformations
+@mixin scale($ratio...) {
+  -webkit-transform: scale($ratio);
+  -ms-transform: scale($ratio); // IE9 only
+  -o-transform: scale($ratio);
+  transform: scale($ratio);
+}
