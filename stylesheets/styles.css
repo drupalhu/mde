@@ -68,6 +68,13 @@ section {
   margin-top: 1.55556em;
   margin-bottom: 1.55556em;
 }
+.member img {
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  border: 1px solid transparent;
+  max-width: 100%;
+}
 
 @media (min-width: 768px) {
   #branding {
