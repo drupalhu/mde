@@ -368,6 +368,9 @@ h4,
     color: #fff;
     padding: 15px 12px;
   }
+  #navbar li a:hover {
+    background-color: #009ef2;
+  }
 }
 @media only screen and (max-width: 767px) {
   #site-logo {

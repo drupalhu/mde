@@ -7,6 +7,9 @@
     a {
       color: #fff;
       padding: 15px 12px;
+      &:hover {
+        background-color: $color-primary-80;
+      }
     }
   }
 }
