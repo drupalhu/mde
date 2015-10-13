@@ -55,7 +55,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 section {
-  margin-top: 1.55556em;
+  margin-top: 3.11111em;
   margin-bottom: 1.55556em;
   clear: both;
 }
@@ -291,6 +291,58 @@ h4,
   color: #fff;
 }
 
+.downloads-buttons a {
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  background-color: #fff;
+  color: #007dbf;
+  margin-left: 10px;
+}
+.downloads-buttons a:hover {
+  -webkit-transform: scale(1.09);
+  -ms-transform: scale(1.09);
+  -o-transform: scale(1.09);
+  transform: scale(1.09);
+  color: #009ef2;
+}
+
+#details ul {
+  margin-bottom: 20px;
+}
+#details ul li {
+  line-height: 2;
+}
+#details a.button {
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  background-color: #007dbf;
+  color: #fff;
+}
+#details a.button:hover {
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  -webkit-transform: scale(1.09);
+  -ms-transform: scale(1.09);
+  -o-transform: scale(1.09);
+  transform: scale(1.09);
+  text-decoration: none;
+}
+
+#social .section-title {
+  margin-bottom: 20px;
+}
+
+.downloads-label,
+.downloads-buttons {
+  display: inline-block;
+}
+
 .navigation li a {
   color: #fff;
 }
@@ -360,6 +412,10 @@ h4,
     background-image: url("../images/twitter.svg");
   }
 
+  #intro #description {
+    margin-top: 10px;
+  }
+
   #navbar {
     float: right;
     margin: 49px 0 0 40px;
@@ -370,6 +426,10 @@ h4,
   }
   #navbar li a:hover {
     background-color: #009ef2;
+  }
+
+  #projects .project-item {
+    margin-bottom: 20px;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -414,5 +474,26 @@ h4,
   .navbar-brand {
     color: #fff;
     font-size: 18px;
+  }
+
+  #projects .project-item {
+    margin-bottom: 40px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  #details {
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
+
+  #benefits .benefit {
+    margin-bottom: 40px;
+  }
+  #benefits h4 {
+    margin-bottom: 20px;
+  }
+
+  #social .button {
+    margin-bottom: 5px;
   }
 }
