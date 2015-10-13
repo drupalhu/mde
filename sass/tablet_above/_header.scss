@@ -2,6 +2,7 @@
 #header {
   padding-top: 32px;
   position: relative;
+  height: 640px;
 
   .decoration {
     background-color: $color-primary;
@@ -39,6 +40,7 @@
   position: absolute;
   right: 20px;
   top: 20px;
+  z-index: 10;
 
   li {
     display: inline-block;

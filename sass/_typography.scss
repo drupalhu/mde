@@ -86,6 +86,6 @@ h4,
 
 #footer {
   @include leader(3);
-  @include padding-leader();
-  @include padding-trailer(3);
+  @include padding-leader(2);
+  @include padding-trailer(2);
 }

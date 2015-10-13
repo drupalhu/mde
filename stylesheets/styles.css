@@ -249,8 +249,8 @@ h4,
 
 #footer {
   margin-top: 4.66667em;
-  padding-top: 1.55556em;
-  padding-bottom: 4.66667em;
+  padding-top: 3.11111em;
+  padding-bottom: 3.11111em;
 }
 
 .btn-mde {
@@ -273,11 +273,18 @@ h4,
 
 #header {
   background-color: #d7d7d7;
-  background: #d7d7d7 url(../images/header-bg.jpg) no-repeat fixed 50% 50%;
+  background: #d7d7d7 url(../images/header-bg.jpg) no-repeat center bottom scroll;
+  background-size: cover;
   margin-top: 0;
 }
 #header .site-title {
   color: #fff;
+}
+#header .site-slogan a:hover {
+  text-decoration: none;
+}
+#header .site-slogan a:hover h2 {
+  background-color: #009ef2;
 }
 #header .site-slogan h2 {
   background-color: #007dbf;
@@ -296,6 +303,7 @@ h4,
   #header {
     padding-top: 32px;
     position: relative;
+    height: 640px;
   }
   #header .decoration {
     background-color: #007dbf;
@@ -327,6 +335,7 @@ h4,
     position: absolute;
     right: 20px;
     top: 20px;
+    z-index: 10;
   }
   .social li {
     display: inline-block;
@@ -358,6 +367,9 @@ h4,
   #navbar li a {
     color: #fff;
     padding: 15px 12px;
+  }
+  #navbar li a:hover {
+    background-color: #009ef2;
   }
 }
 @media only screen and (max-width: 767px) {
