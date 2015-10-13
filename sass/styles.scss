@@ -6,10 +6,9 @@
 @import 'mixins';
 @import 'layout';
 @import 'typography';
-@import 'base/form';
-@import 'base/header';
-@import 'base/nav';
-@import 'base/projects';
+
+// Base styles
+@import 'base';
 
 // Tablet
 @media only screen and (min-width: $screen-tablet) {
@@ -19,6 +18,11 @@
 // Below Tablet
 @media only screen and (max-width: ($screen-tablet - 1px)) {
   @import 'tablet_below';
+}
+
+// Below desktop
+@media only screen and (max-width: ($screen-desktop - 1px)) {
+  @import 'desktop_belowe';
 }
 
 // Tablet

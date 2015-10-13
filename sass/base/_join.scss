@@ -1,0 +1,13 @@
+.downloads-buttons {
+  a {
+    @include transition(all ease .3s);
+    background-color: #fff;
+    color: $color-primary;
+    margin-left: 10px;
+
+    &:hover {
+      @include scale(1.09);
+      color: $color-primary-80;
+    }
+  }
+}
