@@ -1,5 +1,5 @@
 section {
-  @include leader();
+  @include leader(2);
   @include trailer();
   clear: both;
 }

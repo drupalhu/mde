@@ -1,0 +1,21 @@
+#details {
+  ul {
+    margin-bottom: 20px;
+
+    li {
+      line-height: 2;
+    }
+  }
+
+  a.button {
+    @include transition(all ease .2s);
+    background-color: $color-primary;
+    color: #fff;
+
+    &:hover {
+      @include transition(all ease .2s);
+      @include scale(1.09);
+      text-decoration: none;
+    }
+  }
+}

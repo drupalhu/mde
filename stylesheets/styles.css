@@ -55,7 +55,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 section {
-  margin-top: 1.55556em;
+  margin-top: 3.11111em;
   margin-bottom: 1.55556em;
   clear: both;
 }
@@ -308,6 +308,32 @@ h4,
   color: #009ef2;
 }
 
+#details ul {
+  margin-bottom: 20px;
+}
+#details ul li {
+  line-height: 2;
+}
+#details a.button {
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  background-color: #007dbf;
+  color: #fff;
+}
+#details a.button:hover {
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  -webkit-transform: scale(1.09);
+  -ms-transform: scale(1.09);
+  -o-transform: scale(1.09);
+  transform: scale(1.09);
+  text-decoration: none;
+}
+
 #social .section-title {
   margin-bottom: 20px;
 }
@@ -384,6 +410,10 @@ h4,
   }
   .social .twitter i {
     background-image: url("../images/twitter.svg");
+  }
+
+  #intro #description {
+    margin-top: 10px;
   }
 
   #navbar {
