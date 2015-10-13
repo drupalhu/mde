@@ -22,6 +22,11 @@
   @import 'tablet_below';
 }
 
+// Below desktop
+@media only screen and (max-width: ($screen-desktop - 1px)) {
+  @import 'desktop_belowe';
+}
+
 // Tablet
 @media only screen and (max-width: $screen-phone) {
   @import 'mobile';

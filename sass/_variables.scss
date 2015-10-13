@@ -15,7 +15,7 @@ $font-size-small: 12px;
 $color-primary: #007dbf;
 $color-primary-80: lighten(#007dbf, 10%);
 
-$screen-phone:           480px;
-$screen-tablet:          768px;
-$screen-desktop:        1024px;
-$screen-desktop-large:  1280px;
+$screen-phone:           480px !default;
+$screen-tablet:          768px !default;
+$screen-desktop:         992px !default;
+$screen-desktop-large:   1200px !default;
