@@ -11,6 +11,11 @@ section {
 .member {
   @include leader();
   @include trailer();
+  img {
+    @include border-radius(50%);
+    border: 1px solid transparent;
+    max-width: 100%;
+  }
 }
 
 @include breakpoint($screen-tablet) {
