@@ -7,6 +7,12 @@
     color: #fff;
   }
   .site-slogan {
+    a:hover {
+      text-decoration: none;
+      h2 {
+        background-color: $color-primary-80;
+      }
+    }
     h2 {
       @include invert();
     }

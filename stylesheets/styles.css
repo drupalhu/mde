@@ -280,6 +280,12 @@ h4,
 #header .site-title {
   color: #fff;
 }
+#header .site-slogan a:hover {
+  text-decoration: none;
+}
+#header .site-slogan a:hover h2 {
+  background-color: #009ef2;
+}
 #header .site-slogan h2 {
   background-color: #007dbf;
   color: #fff;
