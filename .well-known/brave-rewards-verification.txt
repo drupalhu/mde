@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: drupal.hu
+Token: f6cf5579dbdd3b41c3a4474705f4bf80ad8df7bbb5a33ff7b0b086f13a2e65c4
