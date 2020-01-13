@@ -9,6 +9,15 @@
 @mixin invert() {
   background-color: $color-primary;
   color: #fff;
+  a {
+    color: #fff;
+    font-weight: bold;
+    border-bottom: 1px dotted #fff;
+    &:hover {
+      border-bottom: 1px solid #fff;
+      text-decoration: none;
+    }
+  }
 }
 
 // Transformations
