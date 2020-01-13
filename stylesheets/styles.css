@@ -208,6 +208,17 @@ h4,
   background-color: #007dbf;
   color: #fff;
 }
+.join-step a,
+#footer a {
+  color: #fff;
+  font-weight: bold;
+  border-bottom: 1px dotted #fff;
+}
+.join-step a:hover,
+#footer a:hover {
+  border-bottom: 1px solid #fff;
+  text-decoration: none;
+}
 
 #footer {
   margin-top: 4.66667em;
@@ -251,6 +262,15 @@ h4,
 #header .site-slogan h2 {
   background-color: #007dbf;
   color: #fff;
+}
+#header .site-slogan h2 a {
+  color: #fff;
+  font-weight: bold;
+  border-bottom: 1px dotted #fff;
+}
+#header .site-slogan h2 a:hover {
+  border-bottom: 1px solid #fff;
+  text-decoration: none;
 }
 
 .downloads-buttons a {
